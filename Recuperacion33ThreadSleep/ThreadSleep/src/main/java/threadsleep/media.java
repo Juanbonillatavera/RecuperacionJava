@@ -67,11 +67,11 @@ public class media {  // clase padre que hereda sus metodos a las demas clases
         printSomething("moving forwand"+minutes+"minutes");
     }
     
-    public void dowloand(){ // con esto podemos hacer que el sistema se pare por  segundos
+    public void dowloand(){ // con esto podemos hacer que el sistema se pare por  segundos para demostrar que se esta descargando
         System.out.println("dowloaing"+name);
         try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
+            Thread.sleep(5000); // tiempo de la pasusa
+        } catch (InterruptedException e) { //codigo para ecitar errores
             e.printStackTrace();
         }
          System.out.println("dowloaing"+name);

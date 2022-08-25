@@ -14,6 +14,8 @@ import java.util.Scanner;
 public class ThreadSleep {
 
    public static void main(String[] args) {
+       
+       
         movie Red = new movie(true,"it","accion",120); // aqui insertamos los datos 
       Red.setWonOscar(true);
       Red.dowloand();
@@ -28,6 +30,7 @@ public class ThreadSleep {
       viking.setSynopsis("Una serie de luchadores nordicos");
       // las insturcciones del menu
        System.out.println("Ingrese un numero del 1 al 2 para escoger la synopsis de las peliculas actuales");
+       System.out.println("Ingrese 0 para salir del menu");
 Scanner scanner= new Scanner(System.in);
 
 int selection= scanner.nextInt();
